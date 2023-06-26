@@ -1,10 +1,21 @@
 # Sample_01
 
-## 1.Thông tin chung
+## A Thông tin chung
 
+# Tổng quát 
 
-![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/cb53a793-4b4d-4d1d-aded-80f4500b9ee3)
+![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/b7fb13f9-cb76-40a3-85a4-13775f4ca9d8)
+
 
 ## 2.Phân tích chi tiết
+
+Phân tích theo luồng thực thi của mã độc
+
+# 2.1 
+
+
+
+
+
 
 
