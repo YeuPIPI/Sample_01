@@ -6,13 +6,21 @@
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/b7fb13f9-cb76-40a3-85a4-13775f4ca9d8)
 
 # 2.MITRE ATT&CK™ Techniques Detection
+
 ATT&CK ID   -  	Name
+
 T1059.003	 - Windows Command Shell
+
 T1547.001	- Registry Run Keys / Startup Folder
+
 T1055	- Process Injection
+
 T1571	- Non-Standard Port
+
 T1114	- Email Collection
+
 T1012 - 	Query Registry
+
 T1112 - 	Modify Registry
 
 # 3.Phân tích chi tiết
