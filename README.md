@@ -5,12 +5,21 @@
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/b7fb13f9-cb76-40a3-85a4-13775f4ca9d8)
 
+# 2.MITRE ATT&CK™ Techniques Detection
+ATT&CK ID   -  	Name
+T1059.003	 - Windows Command Shell
+T1547.001	- Registry Run Keys / Startup Folder
+T1055	- Process Injection
+T1571	- Non-Standard Port
+T1114	- Email Collection
+T1012 - 	Query Registry
+T1112 - 	Modify Registry
 
-# 2.Phân tích chi tiết
+# 3.Phân tích chi tiết
 
 Phân tích theo luồng thực thi của mã độc . Chia thành phân tích 3 stage chính 
 
-## 2.1 Stage 1
+## 3.1 Stage 1
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/cd38ebab-f7fb-4b4e-87bf-143f53d5f090)
 
@@ -21,7 +30,7 @@ Ban đầu nó lấy handle của console và ẩn nó đi . Tiếp theo nó get
 
 Ở hàm này nó sẽ copy file ban đầu là Explorer.exe đến foder mà nó tạo trước và rename thành Unikey.exe để ngụy trang . Sau đó nó sẽ create 1 key và set value key là Unikey NT nhằm mục đích persistant chương trình độc hại này
 
-## 2.1 Stage 2
+## 3.2 Stage 2
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/e7e9c5ac-70df-404c-b0a8-345f283da866)
 
@@ -34,7 +43,7 @@ Nó sẽ tạo 1 file tên là Tranfer.exe  và gọi tới hàm Get_info_com . 
 
 ở hàm này nó , Đầu tiên nó mở 1 key là "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall" . nếu mở thành công nó sẽ lấy các thông tin về phần mềm nhưu tên , phiên bản , InstallLocation và ghi vào tệp systeminfo.txt
 
-## 2.1 Stage 3
+## 3.3 Stage 3
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/779409f9-9bcf-4070-836e-9adeb20984c9)
 
