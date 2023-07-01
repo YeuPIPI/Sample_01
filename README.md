@@ -5,6 +5,24 @@
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/b7fb13f9-cb76-40a3-85a4-13775f4ca9d8)
 
+- DNS Resolutions
+
+smtp.gmail.com
+
+- Shell Commands
+
+C:\WINDOWS\system32\cmd.exe /c C:\Documents and Settings\Administrator\Application Data\Explorer\Transfer.exe
+
+C:\Windows\system32\cmd.exe /c %USERPROFILE%\AppData\Roaming\Explorer\Transfer.exe
+
+- Registry Keys Set
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run\UniKey NT
+
+-Registry Keys Opened
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion
+
 # 2.MITRE ATT&CK™ Techniques Detection
 
 ATT&CK ID   -  	Name
