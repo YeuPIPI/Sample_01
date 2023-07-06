@@ -3,7 +3,8 @@
 # 1.Thông tin chung
 
 
-![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/b7fb13f9-cb76-40a3-85a4-13775f4ca9d8)
+![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/8a570b4d-9549-4b44-b3ce-3b4e7d2239eb)
+
 
 - DNS Resolutions
 
