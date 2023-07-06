@@ -42,11 +42,17 @@ T1012 - 	Query Registry
 
 T1112 - 	Modify Registry
 
-# 3.Phân tích chi tiết
+# 3.Chiến thuật 
+
+Nó sẽ sử dụng các API read info victim sau đó lưu lại vào các file log , sử dụng install hook để get các ký tự nhập từ bàn phím đồng thời excute shell command 1 
+
+process độc hại khác để gửi thông tin đến 1 email attacker
+
+# 4.Phân tích chi tiết
 
 Phân tích theo luồng thực thi của mã độc . Chia thành phân tích 3 stage chính 
 
-## 3.1 Stage 1
+## 4.1 Stage 1
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/cd38ebab-f7fb-4b4e-87bf-143f53d5f090)
 
@@ -57,7 +63,7 @@ Ban đầu nó lấy handle của console và ẩn nó đi . Tiếp theo nó get
 
 Ở hàm này nó sẽ copy file ban đầu là Explorer.exe đến foder mà nó tạo trước và rename thành Unikey.exe để ngụy trang . Sau đó nó sẽ create 1 key và set value key là Unikey NT nhằm mục đích persistant chương trình độc hại này
 
-## 3.2 Stage 2
+## 4.2 Stage 2
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/e7e9c5ac-70df-404c-b0a8-345f283da866)
 
@@ -70,7 +76,7 @@ Nó sẽ tạo 1 file tên là Tranfer.exe  và gọi tới hàm Get_info_com . 
 
 ở hàm này nó , Đầu tiên nó mở 1 key là "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall" . nếu mở thành công nó sẽ lấy các thông tin về phần mềm nhưu tên , phiên bản , InstallLocation và ghi vào tệp systeminfo.txt
 
-## 3.3 Stage 3
+## 4.3 Stage 3
 
 ![image](https://github.com/YeuPIPI/Sample_01/assets/72372550/779409f9-9bcf-4070-836e-9adeb20984c9)
 
